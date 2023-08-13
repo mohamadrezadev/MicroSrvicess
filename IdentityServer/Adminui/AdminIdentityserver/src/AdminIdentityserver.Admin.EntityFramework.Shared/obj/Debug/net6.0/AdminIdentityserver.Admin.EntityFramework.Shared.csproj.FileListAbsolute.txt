@@ -1,0 +1,13 @@
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.deps.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.csproj.AssemblyReference.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.AssemblyInfoInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.AssemblyInfo.cs
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.csproj.CoreCompileInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.sourcelink.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\refint\AdminIdentityserver.Admin.EntityFramework.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.Shared\obj\Debug\net6.0\ref\AdminIdentityserver.Admin.EntityFramework.Shared.dll

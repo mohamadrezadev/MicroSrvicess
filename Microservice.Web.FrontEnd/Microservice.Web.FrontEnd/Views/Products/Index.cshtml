@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Microservice.Web.FrontEnd.Services.ProductService.ProductDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>محصولات </h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-hover table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+                <a 
+                    asp-action="Details"
+                    asp-controller="Products" 
+                    asp-route-Id="@item.id"
+                >
+                    جزییات 
+                </a>
+                    <a asp-controller="Basket" asp-action="Addtobasket" asp-route-Productid="@item.id" class="btn btn-success">افزودن به سبد خرید </a>
+            </td>
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>

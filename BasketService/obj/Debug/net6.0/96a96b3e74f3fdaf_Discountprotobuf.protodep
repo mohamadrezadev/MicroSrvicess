@@ -1,0 +1,2 @@
+obj\Debug\net6.0/Discountprotobuf.cs \
+obj\Debug\net6.0/DiscountprotobufGrpc.cs: ../DiscountService/Protos/Discountprotobuf.proto

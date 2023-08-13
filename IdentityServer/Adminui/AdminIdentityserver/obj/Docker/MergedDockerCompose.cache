@@ -1,0 +1,233 @@
+name: dockercompose12405555332892866338
+services:
+  adminidentityserver.admin:
+    build:
+      context: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver
+      dockerfile: src/AdminIdentityserver.Admin/Dockerfile
+    command:
+    - dotnet
+    - AdminIdentityserver.Admin.dll
+    - /seed
+    container_name: skoruba-identityserver4-admin
+    depends_on:
+      adminidentityserver.sts.identity:
+        condition: service_started
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      AdminConfiguration__IdentityAdminBaseUrl: https://admin.skoruba.local
+      AdminConfiguration__IdentityAdminRedirectUri: https://admin.skoruba.local/signin-oidc
+      AdminConfiguration__IdentityServerBaseUrl: https://sts.skoruba.local
+      AdminConfiguration__RequireHttpsMetadata: "false"
+      ConnectionStrings__AdminAuditLogDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__AdminLogDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__ConfigurationDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__DataProtectionDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__IdentityDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__PersistedGrantDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      DockerConfiguration__UpdateCaCertificate: "true"
+      IdentityServerData__Clients__0__AllowedCorsOrigins__0: https://admin.skoruba.local
+      IdentityServerData__Clients__0__ClientUri: https://admin.skoruba.local
+      IdentityServerData__Clients__0__FrontChannelLogoutUri: https://admin.skoruba.local/signin-oidc
+      IdentityServerData__Clients__0__PostLogoutRedirectUris__0: https://admin.skoruba.local/signout-callback-oidc
+      IdentityServerData__Clients__0__RedirectUris__0: https://admin.skoruba.local/signin-oidc
+      IdentityServerData__Clients__1__RedirectUris__0: https://admin-api.skoruba.local/swagger/oauth2-redirect.html
+      Serilog__WriteTo__1__Args__connectionString: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      VIRTUAL_HOST: admin.skoruba.local
+    image: skoruba-identityserver4-admin
+    networks:
+      identityserverui: null
+    volumes:
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\identitydata.json
+      target: /app/identitydata.json
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\identityserverdata.json
+      target: /app/identityserverdata.json
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\serilog.json
+      target: /app/serilog.json
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\moham\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\nginx\certs\cacerts.crt
+      target: /usr/local/share/ca-certificates/cacerts.crt
+      bind:
+        create_host_path: true
+  adminidentityserver.admin.api:
+    build:
+      context: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver
+      dockerfile: src/AdminIdentityserver.Admin.Api/Dockerfile
+    container_name: skoruba-identityserver4-admin-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      AdminApiConfiguration__ApiBaseUrl: https://admin-api.skoruba.local
+      AdminApiConfiguration__IdentityServerBaseUrl: https://sts.skoruba.local
+      AdminApiConfiguration__RequireHttpsMetadata: "false"
+      ConnectionStrings__AdminAuditLogDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__AdminLogDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__ConfigurationDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__DataProtectionDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__IdentityDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__PersistedGrantDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      DockerConfiguration__UpdateCaCertificate: "true"
+      VIRTUAL_HOST: admin-api.skoruba.local
+    image: skoruba-identityserver4-admin-api
+    networks:
+      identityserverui: null
+    volumes:
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\serilog.json
+      target: /app/serilog.json
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\moham\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\nginx\certs\cacerts.crt
+      target: /usr/local/share/ca-certificates/cacerts.crt
+      bind:
+        create_host_path: true
+  adminidentityserver.sts.identity:
+    build:
+      context: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver
+      dockerfile: src/AdminIdentityserver.STS.Identity/Dockerfile
+    container_name: skoruba-identityserver4-sts-identity
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      AdminConfiguration__IdentityAdminBaseUrl: https://admin.skoruba.local
+      ConnectionStrings__ConfigurationDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__DataProtectionDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__IdentityDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      ConnectionStrings__PersistedGrantDbConnection: Server=db;Database=IdentityServer4Admin;User
+        Id=sa;Password=Password_123;MultipleActiveResultSets=true
+      DockerConfiguration__UpdateCaCertificate: "true"
+      IdentityServerOptions__Events__RaiseErrorEvents: "true"
+      IdentityServerOptions__Events__RaiseFailureEvents: "true"
+      IdentityServerOptions__Events__RaiseInformationEvents: "true"
+      IdentityServerOptions__Events__RaiseSuccessEvents: "true"
+      IdentityServerOptions__IssuerUri: https://sts.skoruba.local
+      VIRTUAL_HOST: sts.skoruba.local
+    image: skoruba-identityserver4-sts-identity
+    networks:
+      identityserverui:
+        aliases:
+        - sts.skoruba.local
+    volumes:
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\serilog.json
+      target: /app/serilog.json
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\moham\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\nginx\certs\cacerts.crt
+      target: /usr/local/share/ca-certificates/cacerts.crt
+      bind:
+        create_host_path: true
+  db:
+    container_name: skoruba-identityserver4-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Password_123
+    image: mcr.microsoft.com/mssql/server:2017-CU20-ubuntu-16.04
+    networks:
+      identityserverui: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "7900"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: dbdata
+      target: /var/opt/mssql
+      volume: {}
+  nginx-proxy:
+    container_name: nginx
+    image: jwilder/nginx-proxy
+    networks:
+      identityserverui:
+        aliases:
+        - sts.skoruba.local
+        - admin.skoruba.local
+        - admin-api.skoruba.local
+      proxy: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "80"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "443"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /var/run/docker.sock
+      target: /tmp/docker.sock
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\nginx\vhost.d
+      target: /etc/nginx/vhost.d
+      bind:
+        create_host_path: true
+    - type: bind
+      source: D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\shared\nginx\certs
+      target: /etc/nginx/certs
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  identityserverui:
+    name: dockercompose12405555332892866338_identityserverui
+    driver: bridge
+  proxy:
+    name: dockercompose12405555332892866338_proxy
+    driver: bridge
+volumes:
+  dbdata:
+    name: dockercompose12405555332892866338_dbdata
+    driver: local

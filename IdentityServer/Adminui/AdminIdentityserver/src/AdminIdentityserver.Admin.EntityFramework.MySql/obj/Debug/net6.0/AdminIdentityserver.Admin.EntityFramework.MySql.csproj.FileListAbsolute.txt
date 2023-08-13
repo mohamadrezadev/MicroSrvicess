@@ -1,0 +1,16 @@
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.deps.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.csproj.AssemblyReference.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.AssemblyInfoInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.AssemblyInfo.cs
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.csproj.CoreCompileInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.sourcelink.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.csproj.CopyComplete
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\refint\AdminIdentityserver.Admin.EntityFramework.MySql.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.MySql.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.MySql\obj\Debug\net6.0\ref\AdminIdentityserver.Admin.EntityFramework.MySql.dll

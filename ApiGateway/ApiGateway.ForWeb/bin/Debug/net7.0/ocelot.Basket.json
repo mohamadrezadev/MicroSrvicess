@@ -1,0 +1,68 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Basket?userid={userid}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "port": 6001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket?userid={userid}",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket?basketitemid={basketitemid}&quantity={quantity}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "port": 6001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket?basketitemid={basketitemid}&quantity={quantity}",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "port": 6001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket/{BasketId}/{discountId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "port": 6001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket/{BasketId}/{discountId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket/CheckoutBaskt",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket/CheckoutBaskt",
+      "UpstreamHttpMethod": [ "POST" ]
+    }
+  ]
+}

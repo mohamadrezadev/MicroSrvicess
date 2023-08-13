@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yWALh7FDiL/oLUfnogfK8PMI83Y/TuWcXhxJFENlZN0=",
+  "Source": "PaymentService.Endpoint",
+  "BasePath": "_content/PaymentService.Endpoint",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

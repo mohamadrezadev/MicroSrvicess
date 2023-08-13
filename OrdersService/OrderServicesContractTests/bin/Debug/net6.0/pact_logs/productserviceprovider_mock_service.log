@@ -1,0 +1,53 @@
+I, [2023-08-22T19:01:55.509844 #42824]  INFO -- : Cleared interactions for example ""
+I, [2023-08-22T19:01:55.573686 #42824]  INFO -- : Registered expected interaction GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c
+D, [2023-08-22T19:01:55.573686 #42824] DEBUG -- : {
+  "description": "Prdocut information must be returened",
+  "providerState": "There is Correct Data",
+  "request": {
+    "method": "get",
+    "path": "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "json_class": "Pact::SomethingLike",
+      "contents": {
+        "id": "f5ec50c6-24cb-497b-8eb0-08db9909522c",
+        "name": "Test Name"
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2023-08-22T19:01:55.606662 #42824]  INFO -- : Received request GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c
+D, [2023-08-22T19:01:55.606662 #42824] DEBUG -- : {
+  "path": "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1002",
+    "Accept": "application/json, text/json, text/x-json, text/javascript, application/xml, text/xml",
+    "User-Agent": "RestSharp/110.2.0.0",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2023-08-22T19:01:55.606662 #42824]  INFO -- : Found matching response for GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c
+D, [2023-08-22T19:01:55.607770 #42824] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "json_class": "Pact::SomethingLike",
+    "contents": {
+      "id": "f5ec50c6-24cb-497b-8eb0-08db9909522c",
+      "name": "Test Name"
+    }
+  }
+}
+I, [2023-08-22T19:01:55.637211 #42824]  INFO -- : Writing pact for ProductServiceProvider to D:/Servicess_Store/pacts/orderserviceconsumer-productserviceprovider.json
+I, [2023-08-22T19:01:55.653140 #42824]  INFO -- : Cleared interactions for example ""

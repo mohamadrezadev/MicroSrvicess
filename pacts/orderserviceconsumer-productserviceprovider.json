@@ -1,0 +1,38 @@
+{
+  "consumer": {
+    "name": "OrderServiceConsumer"
+  },
+  "provider": {
+    "name": "ProductServiceProvider"
+  },
+  "interactions": [
+    {
+      "description": "Prdocut information must be returened",
+      "providerState": "There is Correct Data",
+      "request": {
+        "method": "get",
+        "path": "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "id": "f5ec50c6-24cb-497b-8eb0-08db9909522c",
+          "name": "Test Name"
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

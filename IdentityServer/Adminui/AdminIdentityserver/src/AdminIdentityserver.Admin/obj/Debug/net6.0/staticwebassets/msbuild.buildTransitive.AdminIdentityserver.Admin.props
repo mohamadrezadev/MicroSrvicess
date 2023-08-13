@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AdminIdentityserver.Admin.props" />
+</Project>

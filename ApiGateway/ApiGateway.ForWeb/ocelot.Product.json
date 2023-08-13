@@ -1,0 +1,80 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "port": 7156
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product",
+      "UpstreamHttpMethod": [ "GET" ],
+      "RateLimitOptions": {
+        "EnableRateLimiting": true, // فعال یا غیر فعال
+        "Period": "2s", // بازه زمانی
+        "PeriodTimespan": 5, // مدت زمانی که باید صبر کنیم برای درخواست بعدی
+        "Limit": 1 // محدودیت درخواست
+      },
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3, // بعد از چند خطا مدار را باز کنم؟
+        "DurationOfBreak": 5000, // به چه مدت مدار باز باشد؟
+        "TimeoutValue": 9000 // اگر هر درخواست بیشتر از تایم زمان برد آن را برگشت بده- منتظر درخواست نمون
+      }
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Product/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7156
+        }
+      ],
+
+      "UpstreamPathTemplate": "/api/Product/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "Key": "getproduct"
+    },
+    //Category
+    {
+      "DownstreamPathTemplate": "/api/Category",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7156
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Category",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    //ManagementProduct
+    {
+      "DownstreamPathTemplate": "/api/ManagementProduct",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7156
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ManagementProduct",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ManagementProduct/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7156
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ManagementProduct/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}

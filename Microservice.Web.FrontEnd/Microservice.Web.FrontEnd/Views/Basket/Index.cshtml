@@ -1,0 +1,169 @@
+﻿@model Microservice.Web.FrontEnd.Services.BasketService.BasketDto
+
+@{
+    ViewData["Title"] = "سبد خرید ";
+}
+
+<h1>سبد خرید </h1>
+
+
+<div class="row text-right">
+    <div class="container col-md-9">
+        <table class="table col-md-9">
+            <thead>
+                <tr>
+                    <th>
+                        <label asp-for="items.FirstOrDefault().productName"></label>
+                    </th>
+                    <th>
+                        <label asp-for="items.FirstOrDefault().unitPrice"></label>
+                    </th>
+                    <th>
+                        <label asp-for="items.FirstOrDefault().quantity"></label>
+                    </th>
+                    <th>
+                        <label>قیمت کل  </label>
+                    </th>
+                    <th>
+
+                    </th>
+                    <th>
+
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.items)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.productName)
+                        </td>
+                        <td>
+                            <b class="text-success">
+                                @item.unitPrice.ToString("n0") تومان
+                            </b>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.quantity)
+                        </td>
+                        <td>
+                            <b class="text-success">
+                                @item.TotalPrice().ToString("n0") تومان
+                            </b>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" asp-controller="Basket" asp-action="Delete" asp-route-id="@item.id"> حذف</a>
+                            <button id="edit" type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Editbakset" onclick=" showEdit('@item.id','@item.quantity')">
+                                ویرایش
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr class="bg-dark text-white">
+                    <td>
+                        قیمت کل
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                        <b>@Model.TotalPrice().ToString("n0") تومان </b>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="col-md-3 card">
+        <label > استفاده از کد تخفیف </label>
+        <input type="text" class="form-control col-md-12"  id="TextDiscountcode"/>
+        <button type="submit" id="btnApplyDiscountcode" onclick="ApplyDiscountCode()" class="btn btn-warning">اعمال کد تخفیف </button>
+        <hr/>
+        @if (Model.discountInBasketDto != null)
+        {
+            <div>
+                <b class="text-rigth"> کد تخفیف استفاده شده: </b>
+                <small>@Model.discountInBasketDto.code</small>
+                <br/>
+                <b class="col-md-12">مبلغ: @Model.discountInBasketDto.Amount.ToString("n0")</b>
+            </div>
+        }
+    </div>
+    <a asp-action="Checkout" asp-controller="Basket">ثبت سفارش </a>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="Editbakset" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-controller="Basket" asp-action="Edit" method="post" enctype="multipart/form-data">
+                    <div class="form-control">
+                        <input type="hidden" id="BasketItemId" name="BasketItemId" value="" />
+                        <input type="number" id="quantity" name="quantity" value="" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">ویرایش</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
+    <script>
+        function showEdit(BasketItemId, quantity) {
+            $("#BasketItemId").val(BasketItemId);
+            $("#quantity").val(quantity);
+
+        }
+        function ApplyDiscountCode() {
+
+            var code = $("#TextDiscountcode").val();
+
+            var postData = { 'DiscountCode': code };
+
+            $.ajax({
+                contentType: 'application/x-www-form-urlencoded',
+                dataType: 'json',
+                type: "POST",
+                url: "Basket/ApplyDiscount",
+                data: postData,
+                success: function (data) {
+                    if (data.isSuccess) {
+                        swal({
+                            title: "بسیار خوب!",
+                            text: data.message,
+                            icon: "warning",
+                            button: "خب",
+                        });
+                    }
+                    else {
+                        swal({
+                            title: "هشدار!",
+                            text: data.message,
+                            icon: "warning",
+                            button: "خب",
+                        });
+                    }
+                }
+            });
+        }
+
+    </script>
+}
+

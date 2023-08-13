@@ -1,0 +1,78 @@
+# Logfile created on 2023-08-22 18:40:46 +0330 by logger.rb/47272
+I, [2023-08-22T18:40:47.609931 #7196]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359 returns a response which has status code 200'
+I, [2023-08-22T18:40:47.609931 #7196]  INFO -- : Sending GET request to path: "/api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:40:47.609931 #7196] DEBUG -- : body :
+I, [2023-08-22T18:40:51.732470 #7196]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359 returns a response which has a matching body'
+I, [2023-08-22T18:40:51.733470 #7196]  INFO -- : Sending GET request to path: "/api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:40:51.733470 #7196] DEBUG -- : body :
+I, [2023-08-22T18:40:55.778000 #7196]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359 returns a response which includes headers "Content-Type" which equals "application/json ; charset=utf-8"'
+I, [2023-08-22T18:40:55.779007 #7196]  INFO -- : Sending GET request to path: "/api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:40:55.779007 #7196] DEBUG -- : body :
+I, [2023-08-22T18:42:01.728790 #23144]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359 returns a response which has status code 200'
+I, [2023-08-22T18:42:01.728790 #23144]  INFO -- : Sending GET request to path: "/api/Product/Verify/a6eba892-cd99-4f79-b2c8-76fbc6e18359" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:42:01.729789 #23144] DEBUG -- : body :
+I, [2023-08-22T18:42:07.800257 #23144]  INFO -- : Received response with status: 500, headers: {"Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:12:06 GMT", "Server"=>"Kestrel", "Content-Length"=>"2550"}, see debug logs for body
+D, [2023-08-22T18:42:07.800257 #23144] DEBUG -- : body: System.Exception: Product Note Founded ....
+   at ProductsService.Models.Services.ProductService.GetProduct(Guid id) in D:\Servicess_Store\ProductsService\Src\Models\Services\ProductService.cs:line 40
+   at ProductsService.Controllers.ProductController.Verify(Guid Id) in D:\Servicess_Store\ProductsService\Src\Controllers\ProductController.cs:line 37
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+HEADERS
+=======
+Host: localhost:7156
+Cookie: 
+Content-Length: 0
+X-Forwarded-For: 127.0.0.1
+
+I, [2023-08-22T18:43:59.466468 #21584]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T18:43:59.467470 #21584]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:43:59.467470 #21584] DEBUG -- : body :
+I, [2023-08-22T18:44:03.244174 #21584]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:14:02 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T18:44:03.244174 #21584] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}
+I, [2023-08-22T18:44:35.988425 #33012]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T18:44:35.988425 #33012]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:44:35.988425 #33012] DEBUG -- : body :
+I, [2023-08-22T18:44:40.335002 #33012]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:14:39 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T18:44:40.335002 #33012] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}
+I, [2023-08-22T18:56:04.482074 #37720]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T18:56:04.482074 #37720]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:56:04.482074 #37720] DEBUG -- : body :
+I, [2023-08-22T18:56:08.363140 #37720]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:26:07 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T18:56:08.364146 #37720] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}
+I, [2023-08-22T18:58:14.306601 #9088]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T18:58:14.307545 #9088]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:58:14.307545 #9088] DEBUG -- : body :
+I, [2023-08-22T18:58:18.228602 #9088]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:28:17 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T18:58:18.228602 #9088] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}
+I, [2023-08-22T18:59:44.265176 #45096]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T18:59:44.266177 #45096]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T18:59:44.266177 #45096] DEBUG -- : body :
+I, [2023-08-22T18:59:48.081972 #45096]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:29:47 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T18:59:48.081972 #45096] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}
+I, [2023-08-22T19:01:04.487287 #34704]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T19:01:04.488289 #34704]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T19:01:04.488289 #34704] DEBUG -- : body :
+I, [2023-08-22T19:01:08.843183 #34704]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:31:08 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T19:01:08.844013 #34704] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}
+I, [2023-08-22T19:02:10.287531 #12432]  INFO -- : Running example 'Verifying a pact between OrderServiceConsumer and ProductServiceProvider Given There is Correct Data Prdocut information must be returened with GET /api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c returns a response which has status code 200'
+I, [2023-08-22T19:02:10.288528 #12432]  INFO -- : Sending GET request to path: "/api/Product/Verify/f5ec50c6-24cb-497b-8eb0-08db9909522c" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"There is Correct Data"}]}, see debug logs for body
+D, [2023-08-22T19:02:10.288528 #12432] DEBUG -- : body :
+I, [2023-08-22T19:02:15.061180 #12432]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json; charset=utf-8", "Date"=>"Tue, 22 Aug 2023 15:32:14 GMT", "Server"=>"Kestrel", "Content-Length"=>"89"}, see debug logs for body
+D, [2023-08-22T19:02:15.062167 #12432] DEBUG -- : body: {"id":"f5ec50c6-24cb-497b-8eb0-08db9909522c","name":"گوشی موبایل ایفون 6"}

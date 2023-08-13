@@ -1,0 +1,16 @@
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.deps.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.csproj.AssemblyReference.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.AssemblyInfoInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.AssemblyInfo.cs
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.csproj.CoreCompileInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.sourcelink.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.csproj.CopyComplete
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\refint\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.PostgreSQL\obj\Debug\net6.0\ref\AdminIdentityserver.Admin.EntityFramework.PostgreSQL.dll

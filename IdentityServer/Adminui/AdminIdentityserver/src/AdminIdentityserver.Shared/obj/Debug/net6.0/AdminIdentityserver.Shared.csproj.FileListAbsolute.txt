@@ -1,0 +1,13 @@
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\bin\Debug\net6.0\AdminIdentityserver.Shared.deps.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\bin\Debug\net6.0\AdminIdentityserver.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\bin\Debug\net6.0\AdminIdentityserver.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.csproj.AssemblyReference.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.AssemblyInfoInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.AssemblyInfo.cs
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.csproj.CoreCompileInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.sourcelink.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\refint\AdminIdentityserver.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\AdminIdentityserver.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Shared\obj\Debug\net6.0\ref\AdminIdentityserver.Shared.dll

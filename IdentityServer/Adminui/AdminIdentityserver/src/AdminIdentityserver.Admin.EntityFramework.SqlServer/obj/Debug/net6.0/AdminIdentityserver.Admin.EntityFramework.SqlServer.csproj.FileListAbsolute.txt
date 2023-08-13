@@ -1,0 +1,16 @@
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.deps.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\bin\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.Shared.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.csproj.AssemblyReference.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.AssemblyInfoInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.AssemblyInfo.cs
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.csproj.CoreCompileInputs.cache
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.sourcelink.json
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.csproj.CopyComplete
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\refint\AdminIdentityserver.Admin.EntityFramework.SqlServer.dll
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\AdminIdentityserver.Admin.EntityFramework.SqlServer.pdb
+D:\Servicess_Store\IdentityServer\Adminui\AdminIdentityserver\src\AdminIdentityserver.Admin.EntityFramework.SqlServer\obj\Debug\net6.0\ref\AdminIdentityserver.Admin.EntityFramework.SqlServer.dll
