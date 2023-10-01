@@ -5494,11 +5494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Servicess_Store\\ProductsService\\Src\\ProductsService.csproj",
+      "projectUniqueName": "D:\\MyProjects\\Servicess_Store\\ProductsService\\Src\\ProductsService.csproj",
       "projectName": "ProductsService",
-      "projectPath": "D:\\Servicess_Store\\ProductsService\\Src\\ProductsService.csproj",
+      "projectPath": "D:\\MyProjects\\Servicess_Store\\ProductsService\\Src\\ProductsService.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "D:\\Servicess_Store\\ProductsService\\Src\\obj\\",
+      "outputPath": "D:\\MyProjects\\Servicess_Store\\ProductsService\\Src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5521,9 +5521,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -5586,20 +5583,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

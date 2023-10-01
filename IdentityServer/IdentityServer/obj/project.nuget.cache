@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6f/F+QL2Hb6cj1UcHa1mIsvxSgEnNgoAEKi07Ij7UGYont26WwpIUaUExleO4jjQyKiAMg5a24KDipMKv79R/Q==",
+  "dgSpecHash": "Qa3kPMfGU6DRR9/5aQFRdgTvIy+bZhPkNAjoS71fNc9Xd2z1beUOB9xsgC0Ok15kPVDadFz5bIUHJ9SSIP9FBw==",
   "success": true,
-  "projectFilePath": "D:\\Servicess_Store\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+  "projectFilePath": "D:\\MyProjects\\Servicess_Store\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\duende.identityserver\\6.3.3\\duende.identityserver.6.3.3.nupkg.sha512",

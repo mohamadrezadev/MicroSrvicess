@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TMXSi8pB5vnulhIVsPU+EZ4mi2y0dPiksltJQoj9wpdYqFUbBvIsNZLAIa7U6szmO6fOr0urhgKwrXgwvC9Nbw==",
+  "dgSpecHash": "cnL4rNoRRqF8HdLDq/alLsOAGHYyVQzreBG7WHuKjwuRygn5f1fgQOIgNT5+vh/8rgZMMHWi6+O+rB2pucYymw==",
   "success": true,
-  "projectFilePath": "D:\\Servicess_Store\\DiscountService\\DiscountService.csproj",
+  "projectFilePath": "D:\\MyProjects\\Servicess_Store\\DiscountService\\DiscountService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q0GPNeOKuaRdF/wynVq9EGbGEQSa7TCS1uN62+N3wb3xMCsCgZu+XRs8cfERxD5fr3qC+x1xyM2fvM7uBn1T6Q==",
+  "dgSpecHash": "0n4R5uSCZu4Tvbag/x8jRjyO58g0c84wXslRtxr0rdsY7Y/UOF+II3C4IqH3310HnxaCGl0wb1yK5RcQc6QCRQ==",
   "success": true,
-  "projectFilePath": "D:\\Servicess_Store\\Microservice.Web.FrontEnd\\Microservice.Web.FrontEnd\\Microservice.Web.FrontEnd.csproj",
+  "projectFilePath": "D:\\MyProjects\\Servicess_Store\\Microservice.Web.FrontEnd\\Microservice.Web.FrontEnd\\Microservice.Web.FrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\google.protobuf\\3.21.5\\google.protobuf.3.21.5.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\grpc.aspnetcore\\2.49.0\\grpc.aspnetcore.2.49.0.nupkg.sha512",

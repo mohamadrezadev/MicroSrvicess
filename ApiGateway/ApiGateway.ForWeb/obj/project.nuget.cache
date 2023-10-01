@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqhbsYYKIvuMs/Efa5Z8Or+BKV/Fc+rtsgzLCEwqdamL8a9kXw1zzkos6/GChZ+QVi3JWfwJwqi9MG4nag1MUA==",
+  "dgSpecHash": "56S86zZq7mFBYdPV8pnSe2ipz4wZ8MbuH6wqMTSNaWlziIDh5h0DpHyj/Jv17tOEMyZLAyJ3JheEh2etPirY2Q==",
   "success": true,
-  "projectFilePath": "D:\\Servicess_Store\\ApiGateway\\ApiGateway.ForWeb\\ApiGateway.ForWeb.csproj",
+  "projectFilePath": "D:\\MyProjects\\Servicess_Store\\ApiGateway\\ApiGateway.ForWeb\\ApiGateway.ForWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\cachemanager.core\\2.0.0-beta-1629\\cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\cachemanager.microsoft.extensions.configuration\\2.0.0-beta-1629\\cachemanager.microsoft.extensions.configuration.2.0.0-beta-1629.nupkg.sha512",

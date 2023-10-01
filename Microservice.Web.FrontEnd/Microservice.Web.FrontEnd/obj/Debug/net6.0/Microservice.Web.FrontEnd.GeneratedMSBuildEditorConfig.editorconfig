@@ -9,67 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Microservice.Web.FrontEnd
 build_property.RootNamespace = Microservice.Web.FrontEnd
-build_property.ProjectDir = D:\Servicess_Store\Microservice.Web.FrontEnd\Microservice.Web.FrontEnd\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\MyProjects\Servicess_Store\Microservice.Web.FrontEnd\Microservice.Web.FrontEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\Servicess_Store\Microservice.Web.FrontEnd\Microservice.Web.FrontEnd
+build_property.MSBuildProjectDirectory = D:\MyProjects\Servicess_Store\Microservice.Web.FrontEnd\Microservice.Web.FrontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Basket/Checkout.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Basket/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Basket/Index.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Basket/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Basket/OrderCreate.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Basket/OrderCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XE9yZGVyQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Home/Index.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Home/Privacy.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Order/Details.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Order/Index.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Products/Details.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Products/Index.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Shared/Error.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/_ViewImports.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/_ViewStart.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Shared/_Layout.cshtml]
+[D:/MyProjects/Servicess_Store/Microservice.Web.FrontEnd/Microservice.Web.FrontEnd/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8jenixo14t

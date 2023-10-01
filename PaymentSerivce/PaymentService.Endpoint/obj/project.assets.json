@@ -2071,11 +2071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Endpoint\\PaymentService.Endpoint.csproj",
+      "projectUniqueName": "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Endpoint\\PaymentService.Endpoint.csproj",
       "projectName": "PaymentService.Endpoint",
-      "projectPath": "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Endpoint\\PaymentService.Endpoint.csproj",
+      "projectPath": "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Endpoint\\PaymentService.Endpoint.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Endpoint\\obj\\",
+      "outputPath": "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Endpoint\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2092,11 +2092,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj": {
-              "projectPath": "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj"
+            "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj": {
+              "projectPath": "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj"
             },
-            "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Persistance\\PaymentService.Persistance.csproj": {
-              "projectPath": "D:\\Servicess_Store\\PaymentSerivce\\PaymentService.Persistance\\PaymentService.Persistance.csproj"
+            "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Persistance\\PaymentService.Persistance.csproj": {
+              "projectPath": "D:\\MyProjects\\Servicess_Store\\PaymentSerivce\\PaymentService.Persistance\\PaymentService.Persistance.csproj"
             }
           }
         }
@@ -2105,9 +2105,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -2158,7 +2155,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

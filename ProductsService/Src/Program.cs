@@ -11,7 +11,7 @@ namespace ProductsService
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            builder.WebHost.UseIISIntegration().UseIIS();
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -26,8 +26,14 @@ namespace ProductsService
             builder.Services.AddTransient<ICategoryService,CategoryService>();
             builder.Services.Configure<RabbitMqConfiguration>(builder.Configuration.GetSection("RabbitMq"));
             builder.Services.AddScoped<IMessagesBus, RabbitMQMessagesBus>();
-            var app = builder.Build();
 
+
+            builder.Services.Configure<IISServerOptions>(op =>
+            {
+                op.AllowSynchronousIO = true;
+            });
+            var app = builder.Build();
+            
             // Configure the HTTP request pipeline.
            
 

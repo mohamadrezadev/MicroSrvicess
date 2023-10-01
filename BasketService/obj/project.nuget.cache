@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U9MheBiUkLRlcmFIQ8pvtdXWUHyASjc8+DRFqKSIqYFZRtscO+yg0F2EZggPplDQDA+MbGLHgpYtWPToFDQCQw==",
+  "dgSpecHash": "UGgHpkEfenSOvFE2cLMgtn53sxaSGZf6ZUOgfnThNinhMcmafp7hl9A8WSLPq93qRyjMsJEC6trjYqP8J1vOyA==",
   "success": true,
-  "projectFilePath": "D:\\Servicess_Store\\BasketService\\BasketService.csproj",
+  "projectFilePath": "D:\\MyProjects\\Servicess_Store\\BasketService\\BasketService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

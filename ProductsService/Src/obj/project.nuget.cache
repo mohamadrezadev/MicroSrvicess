@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VuJJDFfJgBzSyxY7bHMcmHehSnMSe92z9pqYjFEWEGyC6msJnDxWmE1lIrr5jHJdEpErUh8Ai6HPui88f0c8zg==",
+  "dgSpecHash": "2hha0BfCbIsnTA+QKB1Ig4RGRa+mQdas3kDucC8PMgnefAlTAePm9/CC5pedg7KqEXmmQZ8lDILk3asC/MMrWQ==",
   "success": true,
-  "projectFilePath": "D:\\Servicess_Store\\ProductsService\\Src\\ProductsService.csproj",
+  "projectFilePath": "D:\\MyProjects\\Servicess_Store\\ProductsService\\Src\\ProductsService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -102,16 +102,5 @@
     "C:\\Users\\moham\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
